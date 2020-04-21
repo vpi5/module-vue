@@ -29,7 +29,7 @@ export default new Router({
     routes: [
         ...routes,
 
-        { path: '/', redirect: '/homePage' }
+        { path: '/', redirect: '/pageHome' }
 
     ]
 
