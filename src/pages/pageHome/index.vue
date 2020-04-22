@@ -6,7 +6,10 @@
 
 <script>
     export default {
-        name: "pageHome"
+        name: "pageHome",
+        created : function () {
+            console.log(webConfig, '====')
+        }
     }
 </script>
 
