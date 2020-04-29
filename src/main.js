@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import './styles/imports.styl'
 import router from './router';
+import store from './store'//引入store
 // 引入 mint-ui 插件
 import Mint from 'mint-ui';
 // 注册 mint-ui 插件
@@ -22,4 +23,5 @@ Vue.config.productionTip = false;
 new Vue({
   render: h => h(App),
   router,
+  store,//使用store
 }).$mount('#app');
